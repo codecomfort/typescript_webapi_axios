@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es2015"] // Promise に型を与えることを可能にするためだが、console が認識されなくなる
+
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

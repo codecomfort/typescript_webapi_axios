@@ -1,0 +1,38 @@
+{
+  "name": "typescript-webapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.17.1",
+    "immutable": "^3.8.2",
+    "typescript": "^2.6.1"
+  },
+  "devDependencies": {
+    "@types/axios-mock-adapter": "^1.9.0",
+    "@types/immutable": "^3.8.7",
+    "@types/jest": "^21.1.6",
+    "axios-mock-adapter": "^1.10.0",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.2.2"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json"
+    ]
+  }
+}
